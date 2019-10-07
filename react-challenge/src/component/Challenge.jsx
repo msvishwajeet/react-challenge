@@ -12,9 +12,7 @@ export default class Challenge extends React.Component {
         };
 
     }
-    componentDidMount() {
-        
-    }
+    
     inputOnchangeHandler = (e) => {
         this.setState({ [e.target.id]: e.target.value })
     }
